@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zealsay</artifactId>
+        <groupId>com.zeal.zealsay</groupId>
+        <version>${zealsay.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zealsay-modules</artifactId>
+    <packaging>pom</packaging>
+    <name>zealsay-modules</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>zealsay-daemon-service</module>
+        <module>zealsay-mc-service</module>
+        <module>zealsay-sso-client-demo</module>
+        <module>zealsay-upms-service</module>
+
+    </modules>
+
+</project>

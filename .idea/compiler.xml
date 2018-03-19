@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pig-daemon-service" />
+        <module name="pig-mc-service" />
+        <module name="pig-sso-client-demo" />
+        <module name="pig-upms-service" />
+        <module name="zealsay-auth" />
+        <module name="zealsay-common" />
+        <module name="zealsay-config" />
+        <module name="zealsay-daemon-service" />
+        <module name="zealsay-eureka" />
+        <module name="zealsay-gateway" />
+        <module name="zealsay-mc-service" />
+        <module name="zealsay-monitor" />
+        <module name="zealsay-sso-client-demo" />
+        <module name="zealsay-upms-service" />
+        <module name="zealsay-zipkin-db" />
+        <module name="zealsay-zipkin-elk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pig-daemon-service" target="1.5" />
+      <module name="pig-mc-service" target="1.8" />
+      <module name="pig-sso-client-demo" target="1.8" />
+      <module name="pig-upms-service" target="1.8" />
+      <module name="zealsay" target="1.8" />
+      <module name="zealsay-auth" target="1.8" />
+      <module name="zealsay-common" target="1.8" />
+      <module name="zealsay-config" target="1.8" />
+      <module name="zealsay-daemon-service" target="1.8" />
+      <module name="zealsay-eureka" target="1.8" />
+      <module name="zealsay-gateway" target="1.8" />
+      <module name="zealsay-mc-service" target="1.8" />
+      <module name="zealsay-modules" target="1.8" />
+      <module name="zealsay-monitor" target="1.5" />
+      <module name="zealsay-sso-client-demo" target="1.8" />
+      <module name="zealsay-upms-service" target="1.8" />
+      <module name="zealsay-visual" target="1.8" />
+      <module name="zealsay-zipkin-db" target="1.5" />
+      <module name="zealsay-zipkin-elk" target="1.5" />
+      <module name="zealsayauth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
