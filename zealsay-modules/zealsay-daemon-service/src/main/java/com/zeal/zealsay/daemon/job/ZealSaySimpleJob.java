@@ -6,7 +6,7 @@ import com.zen.elasticjob.spring.boot.annotation.ElasticJobConfig;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/2/7
  * 测试Job
  */
@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
         startedTimeoutMilliseconds = 5000L,
         completedTimeoutMilliseconds = 10000L,
         eventTraceRdbDataSource = "dataSource")
-public class PigSimpleJob implements SimpleJob {
+public class ZealSaySimpleJob implements SimpleJob {
     /**
      * 业务执行逻辑
      *

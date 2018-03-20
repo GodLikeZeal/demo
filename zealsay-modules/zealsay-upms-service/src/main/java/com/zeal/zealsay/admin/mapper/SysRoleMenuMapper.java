@@ -9,7 +9,7 @@ import com.zeal.zealsay.admin.model.entity.SysRoleMenu;
   * 角色菜单表 Mapper 接口
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-10-29
  */
 public interface SysRoleMenuMapper extends BaseMapper<SysRoleMenu> {

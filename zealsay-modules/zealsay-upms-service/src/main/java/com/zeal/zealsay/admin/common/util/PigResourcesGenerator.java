@@ -18,14 +18,14 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/10/29
  */
 public class PigResourcesGenerator {
 
 
     public static void main(String[] args) {
-        String outputDir = "/Users/lengleng/work/source";
+        String outputDir = "/Users/zeal/work/source";
         final String viewOutputDir = outputDir + "/view/";
         AutoGenerator mpg = new AutoGenerator();
         // 全局配置
@@ -39,7 +39,7 @@ public class PigResourcesGenerator {
         gc.setBaseResultMap(true);
         // XML columList
         gc.setBaseColumnList(true);
-        gc.setAuthor("lengleng");
+        gc.setAuthor("zeal");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
@@ -47,7 +47,7 @@ public class PigResourcesGenerator {
         dsc.setDbType(DbType.MYSQL);
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("lengleng");
+        dsc.setPassword("zeal");
         dsc.setUrl("jdbc:mysql://106.14.69.75:3309/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false");
         mpg.setDataSource(dsc);
 

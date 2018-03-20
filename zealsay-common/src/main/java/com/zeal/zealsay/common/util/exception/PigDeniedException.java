@@ -1,7 +1,7 @@
 package com.zeal.zealsay.common.util.exception;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017-12-29 17:05:10
  * 403 授权拒绝
  */

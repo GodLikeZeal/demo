@@ -8,7 +8,7 @@ import com.zeal.zealsay.admin.model.entity.SysDict;
  * 字典表 服务类
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-11-19
  */
 public interface SysDictService extends IService<SysDict> {

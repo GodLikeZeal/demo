@@ -7,11 +7,11 @@ import com.zen.elasticjob.spring.boot.annotation.ElasticJobConfig;
 import java.util.List;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/2/8
  */
 @ElasticJobConfig(cron = "0/2 * * * * ?", shardingTotalCount = 3, shardingItemParameters = "0=Beijing,1=Shanghai,2=Guangzhou")
-public class PigDataflowJob implements DataflowJob<Integer> {
+public class ZealSayDataflowJob implements DataflowJob<Integer> {
 
 
     @Override

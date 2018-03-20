@@ -3,7 +3,7 @@ package com.zeal.zealsay.admin.model.dto;
 import com.zeal.zealsay.admin.model.entity.SysUser;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/11/5
  */
 public class UserDto extends SysUser {

@@ -1,21 +1,20 @@
-package com.zeal.zealsay.zipkin;
+package com.zeal.zealsay.mc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import zipkin.server.EnableZipkinServer;
 
 /**
- * @author lengleng
- * @date 2017-12-29 13:02:29
- * zipkin 链路追踪
+ * @author zeal
+ * @date 2018年01月15日13:24:23
+ * 消息中心
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableZipkinServer
-public class PigZipkinElkApplication {
+public class ZealSayMessageCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigZipkinElkApplication.class, args);
+        SpringApplication.run(ZealSayMessageCenterApplication.class, args);
     }
+
 }

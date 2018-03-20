@@ -7,15 +7,15 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017年10月27日13:59:05
  */
 @EnableAsync
 @SpringBootApplication
 @EnableDiscoveryClient
 @ComponentScan(basePackages = {"com.zeal.zealsay.admin", "com.zeal.zealsay.common.bean"})
-public class PigAdminApplication {
+public class ZealSayAdminApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PigAdminApplication.class, args);
+        SpringApplication.run(ZealSayAdminApplication.class, args);
     }
 }

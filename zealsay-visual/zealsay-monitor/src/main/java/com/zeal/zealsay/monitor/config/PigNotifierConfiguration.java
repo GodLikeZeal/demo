@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/25
  *  监控提醒配置
  */

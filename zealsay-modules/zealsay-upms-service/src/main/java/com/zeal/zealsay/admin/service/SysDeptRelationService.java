@@ -8,7 +8,7 @@ import com.zeal.zealsay.admin.model.entity.SysDeptRelation;
  *  服务类
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2018-02-12
  */
 public interface SysDeptRelationService extends IService<SysDeptRelation> {

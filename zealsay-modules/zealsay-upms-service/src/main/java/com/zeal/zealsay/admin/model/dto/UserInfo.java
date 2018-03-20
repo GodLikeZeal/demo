@@ -5,7 +5,7 @@ import com.zeal.zealsay.admin.model.entity.SysUser;
 import java.io.Serializable;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/11/11
  * <p>
  * commit('SET_ROLES', data)

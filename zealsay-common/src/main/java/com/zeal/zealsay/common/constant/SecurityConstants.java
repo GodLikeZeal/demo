@@ -1,7 +1,7 @@
 package com.zeal.zealsay.common.constant;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017-12-18
  */
 public interface SecurityConstants {

@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Map;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/11/7
  */
 public class RouteConfig implements Serializable{

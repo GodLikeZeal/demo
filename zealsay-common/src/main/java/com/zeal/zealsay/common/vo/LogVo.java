@@ -7,7 +7,7 @@ import com.zeal.zealsay.common.entity.SysLog;
 import java.io.Serializable;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/11/20
  */
 public class LogVo implements Serializable {

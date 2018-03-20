@@ -9,7 +9,7 @@ import com.zeal.zealsay.admin.model.entity.SysUserRole;
  * 用户角色表 服务类
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-10-29
  */
 public interface SysUserRoleService extends IService<SysUserRole> {

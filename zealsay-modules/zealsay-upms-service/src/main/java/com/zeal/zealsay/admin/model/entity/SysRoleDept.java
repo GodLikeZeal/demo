@@ -13,7 +13,7 @@ import java.io.Serializable;
  * 角色与部门对应关系
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2018-01-20
  */
 @TableName("sys_role_dept")

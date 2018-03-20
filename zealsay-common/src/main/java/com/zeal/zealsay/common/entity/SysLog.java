@@ -11,7 +11,7 @@ import java.util.Date;
  * 日志表
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-11-20
  */
 public class SysLog implements Serializable {

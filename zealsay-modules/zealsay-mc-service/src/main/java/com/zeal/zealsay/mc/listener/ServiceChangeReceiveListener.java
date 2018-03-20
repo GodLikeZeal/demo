@@ -8,7 +8,7 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018年01月25日15:59:00
  * 监听服务状态改变发送请求
  */

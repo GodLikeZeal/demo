@@ -17,7 +17,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017-12-26 10:15:30
  * 监控模块
  */
@@ -25,10 +25,10 @@ import java.util.concurrent.TimeUnit;
 @EnableTurbine
 @EnableDiscoveryClient
 @SpringBootApplication
-public class PigMonitorApplication {
+public class ZealSayMonitorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigMonitorApplication.class, args);
+        SpringApplication.run(ZealSayMonitorApplication.class, args);
     }
 
     @Configuration

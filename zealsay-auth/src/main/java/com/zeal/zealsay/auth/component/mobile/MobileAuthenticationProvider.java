@@ -10,7 +10,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/9
  * 手机号登录校验逻辑
  */

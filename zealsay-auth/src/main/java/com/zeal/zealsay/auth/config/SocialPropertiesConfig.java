@@ -3,7 +3,7 @@ package com.zeal.zealsay.auth.config;
 import lombok.Data;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/10/28
  * social 登录基础配置
  */

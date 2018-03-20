@@ -6,7 +6,7 @@ import com.zen.elasticjob.spring.boot.annotation.ElasticJobConfig;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/2/7
  * 测试Job
  */

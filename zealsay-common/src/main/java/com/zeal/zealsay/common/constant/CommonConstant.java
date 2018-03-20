@@ -1,7 +1,7 @@
 package com.zeal.zealsay.common.constant;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/10/29
  */
 public interface CommonConstant {

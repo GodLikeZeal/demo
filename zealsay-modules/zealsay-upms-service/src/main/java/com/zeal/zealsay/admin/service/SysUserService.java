@@ -10,7 +10,7 @@ import com.zeal.zealsay.common.util.R;
 import com.zeal.zealsay.common.vo.UserVo;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017/10/31
  */
 public interface SysUserService extends IService<SysUser> {

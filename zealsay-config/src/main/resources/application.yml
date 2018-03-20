@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: pig-config-server
+    name: zealsay-config-server
   profiles:
     active: dev
   cloud:

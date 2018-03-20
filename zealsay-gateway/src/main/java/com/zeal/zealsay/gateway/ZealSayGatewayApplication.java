@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 /**
- * @author lengleng
+ * @author zeal
  */
 @EnableZuulProxy
 @EnableDiscoveryClient
@@ -20,10 +20,10 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @EnableFeignClients
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @ComponentScan(basePackages = {"com.zeal.zealsay.gateway", "com.zeal.zealsay.common.bean"})
-public class PigGatewayApplication {
+public class ZealSayGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigGatewayApplication.class, args);
+        SpringApplication.run(ZealSayGatewayApplication.class, args);
     }
 
 // 开发时候配置跨域，现在使用vue-cli 自己的代理解决，生成部署，是用Nginx 代理

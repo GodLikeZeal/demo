@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/25
  * 服务下线手机短信通知
  */

@@ -1,7 +1,7 @@
 package com.zeal.zealsay.common.util.exception;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017年12月21日20:45:10
  */
 public class UnloginException extends RuntimeException {

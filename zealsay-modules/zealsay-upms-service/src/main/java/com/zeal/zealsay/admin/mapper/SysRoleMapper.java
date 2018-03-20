@@ -12,7 +12,7 @@ import java.util.Map;
   *  Mapper 接口
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-10-29
  */
 public interface SysRoleMapper extends BaseMapper<SysRole> {

@@ -3,7 +3,7 @@ package com.zeal.zealsay.admin.model.dto;
 import com.zeal.zealsay.admin.model.entity.SysRole;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/20
  * 角色Dto
  */

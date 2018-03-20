@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/3/10
  */
 @Configuration

@@ -14,7 +14,7 @@ import java.util.Date;
  * 部门管理
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2018-01-22
  */
 @TableName("sys_dept")

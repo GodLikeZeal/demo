@@ -1,19 +1,20 @@
-package com.zeal.zealsay.config;
+package com.zeal.zealsay.zipkin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import zipkin.server.EnableZipkinServer;
 
 /**
- * @author lengleng
+ * @author zeal
+ * @date 2018-01-24
+ * zipkin mysql 存储实现
  */
 @EnableDiscoveryClient
-@EnableConfigServer
 @SpringBootApplication
-public class PigConfigApplication {
-
+@EnableZipkinServer
+public class ZealSayZipkinDbApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PigConfigApplication.class, args);
+        SpringApplication.run(ZealSayZipkinDbApplication.class, args);
     }
 }

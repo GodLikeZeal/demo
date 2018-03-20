@@ -3,7 +3,7 @@ package com.zeal.zealsay.mc.handler;
 import com.zeal.zealsay.common.util.template.MobileMsgTemplate;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/16
  */
 public interface SmsMessageHandler {

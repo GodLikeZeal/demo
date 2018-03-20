@@ -1,7 +1,7 @@
 package com.zeal.zealsay.admin.model.dto;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/20
  * 部门树
  */

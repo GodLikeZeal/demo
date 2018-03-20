@@ -1,7 +1,7 @@
 package com.zeal.zealsay.common.constant.enums;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/16
  * 短信通道枚举
  */

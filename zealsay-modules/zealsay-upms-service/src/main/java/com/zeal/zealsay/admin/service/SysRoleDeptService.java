@@ -8,7 +8,7 @@ import com.zeal.zealsay.admin.model.entity.SysRoleDept;
  * 角色与部门对应关系 服务类
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2018-01-20
  */
 public interface SysRoleDeptService extends IService<SysRoleDept> {

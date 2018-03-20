@@ -14,7 +14,7 @@ import java.util.Date;
  * <p>
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-10-29
  */
 @TableName("sys_role")

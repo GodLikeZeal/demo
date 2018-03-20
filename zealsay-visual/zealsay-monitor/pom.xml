@@ -14,7 +14,7 @@
     <parent>
         <groupId>com.zeal.zealsay</groupId>
         <artifactId>zealsay-visual</artifactId>
-        <version>${zealsay.version}</version>
+        <version>1.0-ALPHA</version>
     </parent>
 
     <dependencies>

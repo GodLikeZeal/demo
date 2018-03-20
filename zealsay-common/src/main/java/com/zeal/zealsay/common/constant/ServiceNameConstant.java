@@ -1,7 +1,7 @@
 package com.zeal.zealsay.common.constant;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/25
  * 服务名称
  */

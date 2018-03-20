@@ -7,16 +7,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = PigAdminApplication.class)
-public class PigAdminApplicationTest {
+@SpringBootTest(classes = ZealSayAdminApplication.class)
+public class ZealSayAdminApplicationTest {
 	@Autowired
 	private StringEncryptor stringEncryptor;
 
 	@Test
 	public void testEnvironmentProperties() {
 		System.out.println(stringEncryptor.encrypt("redis"));
-		System.out.println(stringEncryptor.encrypt("pig"));
-		System.out.println(stringEncryptor.encrypt("lengleng"));
+		System.out.println(stringEncryptor.encrypt("zealsay"));
+		System.out.println(stringEncryptor.encrypt("zeal"));
 		System.out.println(stringEncryptor.encrypt("root"));
 		System.out.println(stringEncryptor.encrypt("g0HJr2Ltrs0k6tJDY6pDI2aVMUCPSWZDTROLcFMs"));
 		System.out.println(stringEncryptor.encrypt("24760324"));

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2018/1/25
  * 监控短信接收者列表
  */

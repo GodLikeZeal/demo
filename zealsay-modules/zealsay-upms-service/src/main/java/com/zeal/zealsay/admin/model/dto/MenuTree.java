@@ -1,7 +1,7 @@
 package com.zeal.zealsay.admin.model.dto;
 
 /**
- * @author lengleng
+ * @author zeal
  * @date 2017年11月9日23:33:27
  */
 public class MenuTree extends TreeNode {

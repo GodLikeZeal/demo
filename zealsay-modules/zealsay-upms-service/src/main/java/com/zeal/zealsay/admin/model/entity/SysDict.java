@@ -15,7 +15,7 @@ import java.util.Date;
  * 字典表
  * </p>
  *
- * @author lengleng
+ * @author zeal
  * @since 2017-11-19
  */
 @TableName("sys_dict")
