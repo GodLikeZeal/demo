@@ -1,7 +1,8 @@
 package com.zeal.zealsay.gateway.feign;
 
-import com.github.pig.common.vo.MenuVo;
-import com.github.pig.gateway.feign.fallback.MenuServiceFallbackImpl;
+
+import com.zeal.zealsay.common.vo.MenuVo;
+import com.zeal.zealsay.gateway.feign.fallback.MenuServiceFallbackImpl;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

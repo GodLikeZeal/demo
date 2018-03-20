@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>com.zeal.zealsay</groupId>
 		<artifactId>zealsay-modules</artifactId>
-		<version>${zealsay.version}</version>
+		<version>1.0-ALPHA</version>
 	</parent>
 
 	<dependencies>
@@ -77,6 +77,16 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

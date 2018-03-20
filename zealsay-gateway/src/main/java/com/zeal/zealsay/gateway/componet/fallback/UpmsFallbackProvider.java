@@ -1,6 +1,6 @@
 package com.zeal.zealsay.gateway.componet.fallback;
 
-import com.github.pig.common.constant.ServiceNameConstant;
+import com.zeal.zealsay.common.constant.ServiceNameConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;
@@ -48,10 +48,10 @@ public class UpmsFallbackProvider implements FallbackProvider {
             @Override
             public InputStream getBody() {
                 if (cause != null && cause.getMessage() != null) {
-                    log.error("调用:{} 异常：{}", getRoute(), cause.getMessage());
+//                    log.error("调用:{} 异常：{}", getRoute(), cause.getMessage());
                     return new ByteArrayInputStream(cause.getMessage().getBytes());
                 } else {
-                    log.error("调用:{} 异常：{}", getRoute(), UPMS_SERVICE_DISABLE);
+//                    log.error("调用:{} 异常：{}", getRoute(), UPMS_SERVICE_DISABLE);
                     return new ByteArrayInputStream(UPMS_SERVICE_DISABLE.getBytes());
                 }
             }

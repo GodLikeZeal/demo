@@ -1,9 +1,9 @@
 package com.zeal.zealsay.gateway.util;
 
-import com.github.pig.common.constant.CommonConstant;
-import com.github.pig.common.constant.SecurityConstants;
-import com.github.pig.common.vo.SysRole;
-import com.github.pig.common.vo.UserVo;
+import com.zeal.zealsay.common.constant.CommonConstant;
+import com.zeal.zealsay.common.constant.SecurityConstants;
+import com.zeal.zealsay.common.vo.SysRole;
+import com.zeal.zealsay.common.vo.UserVo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

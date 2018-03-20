@@ -1,1 +1,11 @@
 /.idea
+/logs
+/zealsay-auth/target
+/zealsay-common/target
+/zealsay-config/target
+/zealsay-eureka/target
+/zealsay-gateway/target
+/zealsay-modules/zealsay-daemon-service/target
+/zealsay-modules/zealsay-mc-service/target
+/zealsay-modules/zealsay-sso-client-demo/target
+/zealsay-modules/zealsay-upms-service/target

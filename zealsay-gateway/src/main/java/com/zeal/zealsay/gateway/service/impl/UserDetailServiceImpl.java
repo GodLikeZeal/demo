@@ -1,8 +1,8 @@
 package com.zeal.zealsay.gateway.service.impl;
 
-import com.github.pig.common.vo.UserVo;
-import com.github.pig.gateway.feign.UserService;
-import com.github.pig.gateway.util.UserDetailsImpl;
+import com.zeal.zealsay.common.vo.UserVo;
+import com.zeal.zealsay.gateway.feign.UserService;
+import com.zeal.zealsay.gateway.util.UserDetailsImpl;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;

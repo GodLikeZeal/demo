@@ -1,6 +1,7 @@
 package com.zeal.zealsay.common.bean.interceptor;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
  * 2018年02月12日  增强查询参数
  */
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class DataScope extends HashMap {
     /**
      * 限制范围的字段名称

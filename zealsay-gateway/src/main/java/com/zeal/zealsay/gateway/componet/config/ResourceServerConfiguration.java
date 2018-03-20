@@ -1,8 +1,8 @@
 package com.zeal.zealsay.gateway.componet.config;
 
-import com.github.pig.common.bean.config.FilterUrlsPropertiesConifg;
-import com.github.pig.gateway.componet.filter.ValidateCodeFilter;
-import com.github.pig.gateway.componet.handler.PigAccessDeniedHandler;
+import com.zeal.zealsay.common.bean.config.FilterUrlsPropertiesConifg;
+import com.zeal.zealsay.gateway.componet.filter.ValidateCodeFilter;
+import com.zeal.zealsay.gateway.componet.handler.PigAccessDeniedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;

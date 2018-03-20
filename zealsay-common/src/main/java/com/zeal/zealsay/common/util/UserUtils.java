@@ -1,6 +1,6 @@
 package com.zeal.zealsay.common.util;
 
-import com.github.pig.common.constant.CommonConstant;
+import com.zeal.zealsay.common.constant.CommonConstant;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.apache.commons.lang.StringUtils;

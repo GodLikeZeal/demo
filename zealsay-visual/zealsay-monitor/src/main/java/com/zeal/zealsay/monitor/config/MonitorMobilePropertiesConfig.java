@@ -1,4 +1,4 @@
-package com.github.pig.monitor.config;
+package com.zeal.zealsay.monitor.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.boot.context.properties.ConfigurationProperties;

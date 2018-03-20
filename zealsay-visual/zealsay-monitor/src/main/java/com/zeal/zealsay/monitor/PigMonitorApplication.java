@@ -1,4 +1,4 @@
-package com.github.pig.monitor;
+package com.zeal.zealsay.monitor;
 
 import de.codecentric.boot.admin.config.EnableAdminServer;
 import de.codecentric.boot.admin.notify.LoggingNotifier;

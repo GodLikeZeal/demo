@@ -5,7 +5,7 @@
     <parent>
         <artifactId>zealsay</artifactId>
         <groupId>com.zeal.zealsay</groupId>
-        <version>${zealsay.version}}</version>
+        <version>1.0-ALPHA</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

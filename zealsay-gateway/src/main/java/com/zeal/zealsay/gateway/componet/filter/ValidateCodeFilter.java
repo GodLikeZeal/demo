@@ -1,10 +1,10 @@
 package com.zeal.zealsay.gateway.componet.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.pig.common.constant.CommonConstant;
-import com.github.pig.common.constant.SecurityConstants;
-import com.github.pig.common.util.R;
-import com.github.pig.common.util.exception.ValidateCodeException;
+import com.zeal.zealsay.common.constant.CommonConstant;
+import com.zeal.zealsay.common.constant.SecurityConstants;
+import com.zeal.zealsay.common.util.R;
+import com.zeal.zealsay.common.util.exception.ValidateCodeException;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

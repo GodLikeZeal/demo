@@ -1,6 +1,7 @@
 package com.zeal.zealsay.common.web;
 
-import com.github.pig.common.util.UserUtils;
+
+import com.zeal.zealsay.common.util.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;

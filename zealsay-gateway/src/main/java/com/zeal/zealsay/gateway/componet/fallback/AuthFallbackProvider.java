@@ -1,7 +1,8 @@
 package com.zeal.zealsay.gateway.componet.fallback;
 
-import com.github.pig.common.constant.ServiceNameConstant;
+import com.zeal.zealsay.common.constant.ServiceNameConstant;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.log4j.Logger;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -22,6 +23,7 @@ import java.io.InputStream;
 public class AuthFallbackProvider implements FallbackProvider {
 
     private static final String AUTH_SERVICE_DISABLE = "授权模块不可用";
+    private Logger log = Logger.getLogger(AuthFallbackProvider.class);
 
     @Override
     public ClientHttpResponse fallbackResponse(Throwable cause) {
@@ -48,10 +50,10 @@ public class AuthFallbackProvider implements FallbackProvider {
             @Override
             public InputStream getBody() {
                 if (cause != null && cause.getMessage() != null) {
-                    log.error("调用:{} 异常：{}", getRoute(), cause.getMessage());
+//                    log.error("调用:{} 异常：{}", getRoute(), cause.getMessage());
                     return new ByteArrayInputStream(cause.getMessage().getBytes());
                 } else {
-                    log.error("调用:{} 异常：{}", getRoute(), AUTH_SERVICE_DISABLE);
+//                    log.error("调用:{} 异常：{}", getRoute(), AUTH_SERVICE_DISABLE);
                     return new ByteArrayInputStream(AUTH_SERVICE_DISABLE.getBytes());
                 }
             }

@@ -1,6 +1,6 @@
-package com.github.pig.monitor.config;
+package com.zeal.zealsay.monitor.config;
 
-import com.github.pig.monitor.filter.MobileNotifier;
+import com.zeal.zealsay.monitor.filter.MobileNotifier;
 import de.codecentric.boot.admin.notify.RemindingNotifier;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

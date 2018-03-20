@@ -1,15 +1,15 @@
 package com.zeal.zealsay.gateway.service.impl;
 
-import com.github.pig.common.constant.CommonConstant;
-import com.github.pig.common.constant.MqQueueConstant;
-import com.github.pig.common.entity.SysLog;
-import com.github.pig.common.util.UserUtils;
-import com.github.pig.common.vo.LogVo;
-import com.github.pig.gateway.service.LogSendService;
 import com.netflix.zuul.context.RequestContext;
 import com.xiaoleilu.hutool.http.HttpUtil;
 import com.xiaoleilu.hutool.io.IoUtil;
 import com.xiaoleilu.hutool.util.URLUtil;
+import com.zeal.zealsay.common.constant.CommonConstant;
+import com.zeal.zealsay.common.constant.MqQueueConstant;
+import com.zeal.zealsay.common.entity.SysLog;
+import com.zeal.zealsay.common.util.UserUtils;
+import com.zeal.zealsay.common.vo.LogVo;
+import com.zeal.zealsay.gateway.service.LogSendService;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpStatus;
 import org.slf4j.Logger;

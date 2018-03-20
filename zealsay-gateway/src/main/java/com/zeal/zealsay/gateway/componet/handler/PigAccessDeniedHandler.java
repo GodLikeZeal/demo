@@ -1,9 +1,9 @@
 package com.zeal.zealsay.gateway.componet.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.pig.common.constant.CommonConstant;
-import com.github.pig.common.util.R;
-import com.github.pig.common.util.exception.PigDeniedException;
+import com.zeal.zealsay.common.constant.CommonConstant;
+import com.zeal.zealsay.common.util.R;
+import com.zeal.zealsay.common.util.exception.PigDeniedException;
 import org.apache.http.HttpStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

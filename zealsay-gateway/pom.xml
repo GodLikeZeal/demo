@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>zealsay</artifactId>
-        <groupId>com.git.GodLikeZeal</groupId>
-        <version>${zealsay.version}}</version>
+        <groupId>com.zeal.zealsay</groupId>
+        <version>${zealsay.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

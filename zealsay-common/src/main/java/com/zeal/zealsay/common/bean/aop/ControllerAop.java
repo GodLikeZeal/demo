@@ -1,8 +1,9 @@
 package com.zeal.zealsay.common.bean.aop;
 
-import com.github.pig.common.constant.SecurityConstants;
-import com.github.pig.common.util.UserUtils;
-import com.github.pig.common.vo.UserVo;
+
+import com.zeal.zealsay.common.constant.SecurityConstants;
+import com.zeal.zealsay.common.util.UserUtils;
+import com.zeal.zealsay.common.vo.UserVo;
 import org.apache.commons.lang.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -32,7 +33,7 @@ public class ControllerAop {
     @Autowired
     private CacheManager cacheManager;
 
-    @Pointcut("execution(public com.github.pig.common.util.R *(..))")
+    @Pointcut("execution(public com.zeal.zealsay.common.util.R *(..))")
     public void pointCutR() {
     }
 

@@ -19,7 +19,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.pig</groupId>
+            <groupId>com.zeal.zealsay</groupId>
             <artifactId>pig-common</artifactId>
             <version>${pig.version}</version>
         </dependency>

@@ -1,7 +1,7 @@
 package com.zeal.zealsay.gateway.feign.fallback;
 
-import com.github.pig.common.vo.UserVo;
-import com.github.pig.gateway.feign.UserService;
+import com.zeal.zealsay.common.vo.UserVo;
+import com.zeal.zealsay.gateway.feign.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

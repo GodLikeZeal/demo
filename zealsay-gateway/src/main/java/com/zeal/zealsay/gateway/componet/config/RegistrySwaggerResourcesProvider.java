@@ -1,6 +1,6 @@
 package com.zeal.zealsay.gateway.componet.config;
 
-import com.github.pig.common.constant.ServiceNameConstant;
+import com.zeal.zealsay.common.constant.ServiceNameConstant;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.cloud.netflix.zuul.filters.Route;
 import org.springframework.cloud.netflix.zuul.filters.RouteLocator;

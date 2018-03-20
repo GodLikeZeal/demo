@@ -19,7 +19,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @SpringBootApplication
 @EnableFeignClients
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-@ComponentScan(basePackages = {"com.github.pig.gateway", "com.github.pig.common.bean"})
+@ComponentScan(basePackages = {"com.zeal.zealsay.gateway", "com.zeal.zealsay.common.bean"})
 public class PigGatewayApplication {
 
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
 package com.zeal.zealsay.gateway.service.impl;
 
 import com.baomidou.mybatisplus.toolkit.StringUtils;
-import com.github.pig.common.vo.MenuVo;
-import com.github.pig.gateway.feign.MenuService;
-import com.github.pig.gateway.service.PermissionService;
 import com.xiaoleilu.hutool.collection.CollectionUtil;
+import com.zeal.zealsay.common.vo.MenuVo;
+import com.zeal.zealsay.gateway.feign.MenuService;
+import com.zeal.zealsay.gateway.service.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
