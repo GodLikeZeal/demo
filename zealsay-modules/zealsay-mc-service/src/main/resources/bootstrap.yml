@@ -1,6 +1,6 @@
 spring:
   application:
-    name: pig-mc-service
+    name: pig-mc-smart
   profiles:
     active: dev
   cloud:
