@@ -1,4 +1,4 @@
-package com.zeal.zealsay.admin.common.util;
+package com.zeal.zealsay.common.util;
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
@@ -54,7 +54,7 @@ public class PigResourcesGenerator {
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
         // strategy.setCapitalMode(true);// 全局大写命名 ORACLE 注意
-        strategy.setSuperControllerClass("com.zeal.zealsay.common.web.BaseController");
+        strategy.setSuperControllerClass("com.zeal.zealsay.common.web.CommonController");
         // 表名生成策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
         mpg.setStrategy(strategy);

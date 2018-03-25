@@ -1,4 +1,4 @@
-package com.zeal.zealsay.admin.common.config;
+package com.zeal.zealsay.common.config;
 
 import com.baomidou.mybatisplus.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;

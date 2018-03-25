@@ -2,7 +2,7 @@ package com.zeal.zealsay.gateway.componet.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.zeal.zealsay.common.constant.CommonConstant;
-import com.zeal.zealsay.common.util.R;
+import com.zeal.zealsay.common.entity.R;
 import com.zeal.zealsay.common.util.exception.PigDeniedException;
 import org.apache.http.HttpStatus;
 import org.slf4j.Logger;

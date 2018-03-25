@@ -1,4 +1,4 @@
-package com.zeal.zealsay.admin.common.config;
+package com.zeal.zealsay.common.config;
 
 import com.zeal.zealsay.common.constant.MqQueueConstant;
 import org.springframework.amqp.core.Queue;

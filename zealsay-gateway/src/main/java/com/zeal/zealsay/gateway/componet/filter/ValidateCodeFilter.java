@@ -3,7 +3,7 @@ package com.zeal.zealsay.gateway.componet.filter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.zeal.zealsay.common.constant.CommonConstant;
 import com.zeal.zealsay.common.constant.SecurityConstants;
-import com.zeal.zealsay.common.util.R;
+import com.zeal.zealsay.common.entity.R;
 import com.zeal.zealsay.common.util.exception.ValidateCodeException;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;

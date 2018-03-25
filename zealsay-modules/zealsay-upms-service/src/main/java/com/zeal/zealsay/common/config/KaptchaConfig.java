@@ -1,4 +1,4 @@
-package com.zeal.zealsay.admin.common.config;
+package com.zeal.zealsay.common.config;
 
 import com.zeal.zealsay.common.constant.SecurityConstants;
 import com.google.code.kaptcha.impl.DefaultKaptcha;

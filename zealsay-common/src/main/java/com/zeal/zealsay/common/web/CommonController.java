@@ -11,7 +11,7 @@ import java.util.List;
  * @author zeal
  * @date 2017/10/28
  */
-public class BaseController {
+public class CommonController {
     @Autowired
     private HttpServletRequest request;
     protected org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(this.getClass());

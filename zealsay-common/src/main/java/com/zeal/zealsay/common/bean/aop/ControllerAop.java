@@ -33,7 +33,7 @@ public class ControllerAop {
     @Autowired
     private CacheManager cacheManager;
 
-    @Pointcut("execution(public com.zeal.zealsay.common.util.R *(..))")
+    @Pointcut("execution(public com.zeal.zealsay.common.entity.R *(..))")
     public void pointCutR() {
     }
 

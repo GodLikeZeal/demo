@@ -1,4 +1,4 @@
-package com.zeal.zealsay.common.util;
+package com.zeal.zealsay.common.entity;
 
 import java.io.Serializable;
 

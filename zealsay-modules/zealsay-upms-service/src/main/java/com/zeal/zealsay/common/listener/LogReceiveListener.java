@@ -1,6 +1,6 @@
-package com.zeal.zealsay.admin.common.listener;
+package com.zeal.zealsay.common.listener;
 
-import com.zeal.zealsay.admin.service.SysLogService;
+import com.zeal.zealsay.admin.modules.user.service.SysLogService;
 import com.zeal.zealsay.common.constant.MqQueueConstant;
 import com.zeal.zealsay.common.entity.SysLog;
 import com.zeal.zealsay.common.util.UserUtils;

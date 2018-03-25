@@ -1,7 +1,7 @@
 package com.zeal.zealsay.auth.controller;
 
 import com.zeal.zealsay.common.constant.SecurityConstants;
-import com.zeal.zealsay.common.util.R;
+import com.zeal.zealsay.common.entity.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.data.redis.connection.RedisConnectionFactory;

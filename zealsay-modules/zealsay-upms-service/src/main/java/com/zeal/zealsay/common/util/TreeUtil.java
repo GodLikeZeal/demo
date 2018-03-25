@@ -1,4 +1,4 @@
-package com.zeal.zealsay.admin.common.util;
+package com.zeal.zealsay.common.util;
 
 
 import com.zeal.zealsay.admin.model.dto.TreeNode;
